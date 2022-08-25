@@ -70,7 +70,7 @@
          url: 'insert.php',
          type: 'post',
          data: jQuery('#form_sheet').serialize(),
-         success: function(data) {
+          success: function(data) {
            alert(data);
          }
        });
@@ -81,12 +81,13 @@
          url: 'https://script.google.com/macros/s/AKfycbx6L0DTPx7YWUWeJiKhZu8v0-lZv9SSbDR5h4myfm_wJNqyUseT24xW8rAGtVhW_JFyRg/exec',
          type: 'post',
          data: jQuery('#form_sheet').serialize(),
-         success: function(res) {
+          success: function(res) {
            jQuery('#form_sheet')[0].reset();
            jQuery('#msg').html('We will back soon ...');
          }
        });
 
+       
 
 
 
