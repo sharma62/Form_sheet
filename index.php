@@ -1,4 +1,5 @@
- <!doctype html>
+
+<!doctype html>
  <html lang="en">
 
  <head>
@@ -66,6 +67,8 @@
 
      jQuery('#form_sheet').on('submit', function(e) {
        e.preventDefault();
+
+       
        jQuery.ajax({
          url: 'insert.php',
          type: 'post',

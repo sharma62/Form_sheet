@@ -23,3 +23,4 @@ if($captcha == $_SESSION['CODE']){
 }else{
     echo "Please enter valid captcha";
 }
+?>
